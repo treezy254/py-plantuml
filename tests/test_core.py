@@ -3,7 +3,7 @@ import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import unittest
-from plantuml_generator.core import plantuml, generate_uml_png
+from pyplantuml.core import plantuml, generate_uml_png
 
 class TestCore(unittest.TestCase):
     """Test cases for the core module."""

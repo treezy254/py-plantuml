@@ -31,14 +31,14 @@ class BuildDocs(Command):
         subprocess.run(['sphinx-build', '-b', 'html', 'docs/source', 'docs/build/html'])
 
 setup(
-    name="plantuml_generator",
-    version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    name="pythonplantuml",
+    version="0.2.1",
+    author="Kamau Samuel",
+    author_email="gachungasamuel54@gmail.com",
     description="A library for generating PlantUML diagrams",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/plantuml_generator",
+    url="https://github.com/treezy254/py-plantuml.git",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
@@ -60,7 +60,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "plantuml_generator=plantuml_generator.core:plantuml",
+            "pythonplantuml=pyplantuml.core:plantuml",
         ],
     },
     cmdclass={

@@ -3,7 +3,7 @@ import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import unittest
-from plantuml_generator.utils import _exec_and_get_paths
+from pyplantuml.utils import _exec_and_get_paths
 
 class TestUtils(unittest.TestCase):
     """Test cases for the utils module."""

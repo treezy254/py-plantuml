@@ -1,6 +1,6 @@
-# PyPlantuml
+# PythonPlantuml
 
-PyPlantUML Generator is a Python library for generating UML diagrams using PlantUML. It provides a simple interface to create SVG and PNG diagrams from PlantUML code.
+PythonPlantUML Generator is a Python library for generating UML diagrams using PlantUML. It provides a simple interface to create SVG and PNG diagrams from PlantUML code.
 
 ## Installation
 
@@ -14,7 +14,7 @@ pip install pythonplantuml==0.2.0
 Here's a basic example of how to use the PlantUML Generator:
 
 ```python
-from plantuml_generator import generate_uml_png
+from pythonplantuml import generate_uml_png
 
 uml_code = """
 @startuml
