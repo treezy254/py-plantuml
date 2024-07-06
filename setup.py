@@ -1,7 +1,34 @@
-from setuptools import setup, find_packages
+from setuptools import setup, find_packages, Command
+import subprocess
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
+
+class RunTests(Command):
+    description = 'run tests'
+    user_options = []
+
+    def initialize_options(self):
+        pass
+
+    def finalize_options(self):
+        pass
+
+    def run(self):
+        subprocess.run(['python', '-m', 'unittest', 'discover', 'tests'])
+
+class BuildDocs(Command):
+    description = 'build documentation'
+    user_options = []
+
+    def initialize_options(self):
+        pass
+
+    def finalize_options(self):
+        pass
+
+    def run(self):
+        subprocess.run(['sphinx-build', '-b', 'html', 'docs/source', 'docs/build/html'])
 
 setup(
     name="plantuml_generator",
@@ -36,5 +63,8 @@ setup(
             "plantuml_generator=plantuml_generator.core:plantuml",
         ],
     },
-    test_suite='tests',
+    cmdclass={
+        'test': RunTests,
+        'docs': BuildDocs,
+    },
 )

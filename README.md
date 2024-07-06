@@ -39,15 +39,17 @@ For more detailed information about the PlantUML Generator, please refer to the 
 Development
 To set up the development environment:
 
-```
+
 Clone the repository
 Install the development dependencies:
-Copypip install -r requirements.txt
+
+```
+pip install -r requirements.txt
 ```
 
 Run the tests:
 ```
-Copypython -m unittest discover tests
+python -m unittest discover tests
 ```
 
 ## Contributing
