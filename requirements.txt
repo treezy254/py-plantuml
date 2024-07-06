@@ -1,0 +1,6 @@
+plantweb
+cairosvg
+pytest
+sphinx
+flake8
+tox
