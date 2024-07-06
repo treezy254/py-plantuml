@@ -1,5 +1,5 @@
 Welcome to PlantUML Generator's documentation!
-==============================================
+=============================================
 
 .. toctree::
    :maxdepth: 2
