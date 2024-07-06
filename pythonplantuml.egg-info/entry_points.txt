@@ -1,0 +1,2 @@
+[console_scripts]
+pythonplantuml = pyplantuml.core:plantuml

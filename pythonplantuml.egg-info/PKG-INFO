@@ -1,3 +1,24 @@
+Metadata-Version: 2.1
+Name: pythonplantuml
+Version: 0.2.1
+Summary: A library for generating PlantUML diagrams
+Home-page: https://github.com/treezy254/py-plantuml.git
+Author: Kamau Samuel
+Author-email: gachungasamuel54@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
 # PythonPlantuml
 
 PythonPlantUML Generator is a Python library for generating UML diagrams using PlantUML. It provides a simple interface to create SVG and PNG diagrams from PlantUML code.
@@ -6,7 +27,7 @@ PythonPlantUML Generator is a Python library for generating UML diagrams using P
 
 You can install the PlantUML Generator using pip:
 ```
-pip install pythonplantuml
+pip install pythonplantuml==0.2.0
 ```
 
 ## Usage

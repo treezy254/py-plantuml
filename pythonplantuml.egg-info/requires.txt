@@ -1,0 +1,6 @@
+plantweb
+
+[dev]
+cairosvg
+pytest
+sphinx
