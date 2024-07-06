@@ -6,7 +6,7 @@ PyPlantUML Generator is a Python library for generating UML diagrams using Plant
 
 You can install the PlantUML Generator using pip:
 ```
-pip install plantuml-generator
+pip install pythonplantuml==0.2.0
 ```
 
 ## Usage
