@@ -36,7 +36,8 @@ This will generate a PNG file named "output.png" with the UML diagram.
 
 ## Documentation
 For more detailed information about the PlantUML Generator, please refer to the full documentation.
-Development
+
+## Development
 To set up the development environment:
 
 
