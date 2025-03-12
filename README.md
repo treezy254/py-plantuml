@@ -9,7 +9,7 @@ You can install the PlantUML Generator using pip:
 pip install pythonplantuml 
 ```
 
-## Usage
+## Usage 
 
 Here's a basic example of how to use the PlantUML Generator:
 
