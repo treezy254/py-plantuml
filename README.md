@@ -14,7 +14,7 @@ pip install pythonplantuml
 Here's a basic example of how to use the PlantUML Generator:
 
 ```python
-from pythonplantuml import generate_uml_png
+from pythonplantuml import generate_uml_png 
 
 uml_code = """
 @startuml
